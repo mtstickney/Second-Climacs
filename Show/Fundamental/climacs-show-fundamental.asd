@@ -3,7 +3,8 @@
 (asdf:defsystem :climacs-show-fundamental
   :depends-on (:climatis
 	       :climacs-show
-	       :climacs-syntax-fundamental)
+	       :climacs-syntax-fundamental
+	       :chrono-tree)
   :components
   ((:file "packages")
    (:file "fundamental" :depends-on ("packages"))))
